@@ -6,7 +6,7 @@ dead simple notifier
 - ruby 1.8 or newer
 
 
-### usage
+### Usage
 
 start server: 
 
@@ -21,3 +21,7 @@ Next, to send message:
 Then an email'll be sent to the address through localhost:25. 
 
 Be careful it has no domain auth key so gmail may put it into spam folder. 
+
+### TODO
+
+- sync with growlnotify
