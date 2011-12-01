@@ -16,7 +16,7 @@ then it listen on 8888. use "nohup" to be background.
 
 Next, to send message:
 
-	curl http://server.addr:8888/?msg=anymessage
+	curl "http://server.addr:8888/?msg=anymessage"
 
 Then an email'll be sent to the address through localhost:25. 
 
